@@ -1,0 +1,19 @@
+
+<table class="table table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">RFC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let concept of concepts">
+      <td>{{concept.id}}</td>
+      <td>{{concept.concept_name}}</td>
+      <td>{{concept.description}}</td>
+    </tr>
+    
+  </tbody>
+</table>
+
