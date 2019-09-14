@@ -7,7 +7,7 @@ import { Concept } from '../cliente/Concept';
 })
 export class ClienteService {
 
-  API_URI = 'https://flux-s.herokuapp.com:3000/api';
+  API_URI = 'https://flux-s.herokuapp.com/api';
 
   constructor(private http: HttpClient) { }
 
